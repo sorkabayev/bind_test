@@ -55,6 +55,7 @@ class HomePage extends StatelessWidget {
                   title: const Text('Log Out '),
                   content: const Text('Do yo wanna Log Out'),
                   actions: <Widget>[
+
                     TextButton(
                       onPressed: () => Navigator.pop(context, 'Cancel'),
                       child: const Text('Cancel'),
